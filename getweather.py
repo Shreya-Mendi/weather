@@ -25,8 +25,8 @@ def get_weather(city):
     
     # 4. Parse JSON
     data = response.json()
-    print(data)
-    print(data.keys())   
+    # print(data)
+    # print(data.keys())   
     
     # 5. Extract key info
     city_name = data["name"]
