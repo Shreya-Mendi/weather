@@ -1,0 +1,24 @@
+Week5 Weather submission
+
+Prerequisites:
+requests 
+python-dotenv
+
+Install the required libraries with the below commands -
+pip install requests 
+pip install python-dotenv
+
+Running the script:
+
+Clone the repo with "git clone"
+
+Generate your API keys by visiting https://openweathermap.org/api .
+You just need to:
+Sign up for a free account
+Go to "MY API keys" in your dashboard
+Copy the default API key or create a new one
+
+and enter the key in a .env file as OPENWEATHER_API_KEY=yourkey
+
+Run the python script and voila!
+
