@@ -1,12 +1,12 @@
-Week5 Weather submission
+Week5 Day2 Weather submission
 
 Prerequisites:
 requests 
 python-dotenv
+streamlit
 
-Install the required libraries with the below commands -
-pip install requests 
-pip install python-dotenv
+Install the required libraries with the pip commands -
+pip install -r requirements.txt
 
 Running the script:
 
@@ -20,5 +20,10 @@ Copy the default API key or create a new one
 
 and enter the key in a .env file as OPENWEATHER_API_KEY=yourkey
 
-Run the python script and voila!
+Run the python script streamlit.py with the command:
+
+streamlit run streamlit.py
+
+
+  and voila!
 
